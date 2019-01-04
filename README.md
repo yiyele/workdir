@@ -1,7 +1,7 @@
-this is a repos for work and study
+# this is a repos for work and study
 ----
-# Todo
+## Todo
 
 
-# Done
+## Done
 * add git manual...
