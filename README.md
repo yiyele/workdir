@@ -4,4 +4,4 @@
 * add tensorflow tool
 
 ## Done
-* add git manual... --> master
+* 2019-01-05 : add git manual... --> master
