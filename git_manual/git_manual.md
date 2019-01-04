@@ -163,7 +163,7 @@ doc/**/*.pdf
 *\! 轻量标签本质上是将提交校验和存储到一个文件中 - 没有保存任何其他信息。 创建轻量标签，不需要使用 -a、-s 或 -m 选项，只需要提供标签名字 *
 * `git tag v1.4-lw`
 
-#### 后期打标签
+### 后期打标签
 ```
 git log --pretty=oneline
 15027957951b64cf874c3557a0f3547bd83b3ff6 Merge branch 'experiment'
@@ -179,11 +179,11 @@ a6b4c97498bd301d84096da251c98a07c7723e65 beginning write support
 ```
 `git tag -a v1.2 9fceb02`
 
-#### 共享标签
+### 共享标签
 * `git push origin v1.5` --> 将v1.5这个标签push到远程仓库
 * `git push origin --tags` --> 推送所有标签到远程仓库
 
-#### 检出标签
+### 检出标签
 * `git checkout -b version2 v2.0.0` --> 将工作目录version2和仓库中特定的标签版本完全一样，并创建一个新分支
 
 ### git 别名
