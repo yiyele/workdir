@@ -193,6 +193,25 @@ a6b4c97498bd301d84096da251c98a07c7723e65 beginning write support
 * *\! 给每一个命令设置别名*
 * `git config --global alias.co checkout` -->用co替代checkout
 
+# Git 分支
+* `git branch testing` 创建testing 分支
+* `git log --decorate` 查看各个分支当前所指的对象
+* `git checkout testing` 切换分支testing
+* `git log --oneline --decorate --all` 输出你的提交历史，各个分支的指向以及项目的分支分叉情况。
+* `git checkout -b testing` 新建分支并切换到分支testing。
+* `git merge testing` 合并testing分支，首先必须先处于合并到的分支上。
+* 合并时，如果两个分支的文件同时被修改，合并的时候，会存在冲突，这个时候可以使用git status查看
+=====上面的表示HEAD分支的文件，下面的表示待合并分支的文件。
+* `git branch -v`查看每个分支最后一次提交。
+* `git branch --merged` 查看哪些分支已经合并到当前分支。
+* `git branch --no-merged` 查看所有包含未合并工作的分支。
+* `git branch -d testing` 删除testing分支
+* `git ls-remote` 显示的获取远程引用的完整列表。
+* `git remote show` 获得远程分支的更多信息。
+* `git fetch origin`查找origin是哪一个服务器，从中抓取本地没有的数据，并且更新本地数据库。移动origin/master指针指向新的，更新后的位置。
+* `git pull` == `git fetch; git merge`
+* `git push origin --delete testing` 删除testing远程分支。
+ 
 
 
 
