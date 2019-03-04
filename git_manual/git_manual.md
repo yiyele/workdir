@@ -196,6 +196,7 @@ a6b4c97498bd301d84096da251c98a07c7723e65 beginning write support
 # Git 分支
 * `git branch testing` 创建testing 分支
 * `git log --decorate` 查看各个分支当前所指的对象
+* `got log --graph` 以图形的方式查看log
 * `git checkout testing` 切换分支testing
 * `git log --oneline --decorate --all` 输出你的提交历史，各个分支的指向以及项目的分支分叉情况。
 * `git checkout -b testing` 新建分支并切换到分支testing。
@@ -211,20 +212,3 @@ a6b4c97498bd301d84096da251c98a07c7723e65 beginning write support
 * `git fetch origin`查找origin是哪一个服务器，从中抓取本地没有的数据，并且更新本地数据库。移动origin/master指针指向新的，更新后的位置。
 * `git pull` == `git fetch; git merge`
 * `git push origin --delete testing` 删除testing远程分支。
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
